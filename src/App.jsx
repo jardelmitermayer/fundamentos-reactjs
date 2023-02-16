@@ -1,9 +1,12 @@
-function App() {
+import { Post } from './Post'
+
+export function App() {
   return (
-    <div >
-      hello
+    <div>
+      <Post />
+      <Post />
+      <Post />
+      <Post />
     </div>
   )
 }
-
-export default App
